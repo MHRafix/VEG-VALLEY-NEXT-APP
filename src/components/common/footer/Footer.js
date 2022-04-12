@@ -1,9 +1,7 @@
-import Image from "next/image";
 import React from "react";
 import { CgPhone } from "react-icons/cg";
 import { IoIosMail } from "react-icons/io";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import Logo from "../../../images/logo/logo.png";
 import {
   header_menus,
   IconMarkup,
@@ -18,11 +16,14 @@ const Footer = () => {
         <div className="container_wrapper">
           <div className="footer_wrapper grid grid-rows-1 grid-cols-4">
             <div className="footer_block">
-              <div className="block_header">
-                <Image src={Logo} width={150} height={100} alt="site_logo" />
+              <div className="block_header py-9">
+                <h1 className="font-bold text-4xl capitalize">
+                  <span className="text-green-900">veg</span>
+                  <span className="text-yellow-500">valley</span>
+                </h1>
               </div>
               <div className="block_content">
-                <p className="text-gray-600 w-3/4 font-medium mb-3 ">
+                <p className="text-gray-600 w-3/4 font-medium mb-10">
                   Lorem ipsum, dolor sit amet consectetur
                 </p>
                 <span className="social_icon_area">
@@ -97,8 +98,8 @@ const Footer = () => {
             </div>
           </div>
           <div
-            className="footer_bottom_area mt-20 py-3 flex justify-between items-center"
-            style={{ borderTop: "1px solid gray" }}
+            className="footer_bottom_area mt-20 py-5 flex justify-between items-center"
+            style={{ borderTop: "1px solid #e5e7ev" }}
           >
             <div className="copy-right_text">
               <h2 className="font-medium text-lg spacing-x-1">
