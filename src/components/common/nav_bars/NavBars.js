@@ -1,0 +1,14 @@
+import Link from "next/link";
+import React from "react";
+
+const NavBars = ({ menu }) => {
+  const { menu_name, menu_href } = menu;
+  return (
+    <span className="navigation_link">
+      <Link href={`${menu_href}`}>{menu_name}</Link>
+    </span>
+  );
+};
+
+export default NavBars;
+// active_link

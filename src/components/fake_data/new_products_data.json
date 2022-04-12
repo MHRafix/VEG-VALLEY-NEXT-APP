@@ -1,0 +1,114 @@
+[
+  {
+    "uid": 12332,
+    "product_title": "lemon",
+    "product_thumbnail": "https://i.ibb.co/mC44Tdj/sale1.png",
+    "regular_price": 78.0,
+    "sale_price": 69.0
+  },
+  {
+    "uid": 12432,
+    "product_title": "chillies",
+    "product_thumbnail": "https://i.ibb.co/4p8fVZM/sale3.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 123432,
+    "product_title": "orange",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 123535432,
+    "product_title": "multa",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 246535353,
+    "product_title": "apple",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 12353532,
+    "product_title": "multa",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 2465353,
+    "product_title": "apple",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 1235145432,
+    "product_title": "multa",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 24305353,
+    "product_title": "apple",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 1235834432,
+    "product_title": "multa",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 535353,
+    "product_title": "apple",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 12832,
+    "product_title": "lemon",
+    "product_thumbnail": "https://i.ibb.co/mC44Tdj/sale1.png",
+    "regular_price": 78.0,
+    "sale_price": 69.0
+  },
+  {
+    "uid": 10132,
+    "product_title": "chillies",
+    "product_thumbnail": "https://i.ibb.co/4p8fVZM/sale3.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 121032,
+    "product_title": "orange",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 123585432,
+    "product_title": "multa",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  },
+  {
+    "uid": 246345353,
+    "product_title": "apple",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75
+  }
+]

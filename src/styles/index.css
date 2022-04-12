@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* tailwind bases are here */
+@layer base {
+}
+
+/* tailwind components are here  */
+@layer components {
+  .social_icon_wrapper {
+    @apply text-lg text-gray-600 mr-3 cursor-pointer hover:text-yellow-500 hover:duration-300;
+  }
+
+  .lang_crrency_wrapper {
+    @apply text-center text-gray-600 font-medium text-sm;
+  }
+
+  .select_input {
+    @apply outline-none p-1 text-gray-600;
+  }
+
+  .sorting_input {
+    @apply outline-none bg-gray-50 p-4 text-xl text-gray-500;
+  }
+
+  .navigation_link {
+    @apply text-gray-500 text-lg space-x-1 font-medium capitalize mx-2;
+  }
+
+  .navigation_link2 {
+    @apply text-lg text-gray-700 space-x-1 font-medium uppercase my-2;
+  }
+
+  .btn {
+    @apply rounded-sm text-sm font-semibold;
+  }
+
+  .btn_login {
+    @apply w-20 h-10 text-yellow-500 bg-transparent hover:bg-yellow-500 hover:text-white hover:duration-300;
+  }
+
+  .btn_signup {
+    @apply w-20 h-10 text-white bg-yellow-500 mx-2 text-center;
+  }
+
+  .btn2 {
+    @apply text-lg text-white bg-yellow-500 text-center rounded-sm font-semibold;
+  }
+  .btn_cart {
+    @apply p-2.5;
+  }
+
+  .btn_search {
+    @apply px-8 py-5;
+  }
+
+  .btn_shop_now {
+    @apply py-3 text-lg px-4 flex justify-between items-center text-yellow-500 bg-transparent hover:bg-yellow-500 hover:text-white hover:duration-300;
+  }
+  .features_card {
+    @apply text-center px-2 py-5 bg-gray-50 shadow-lg;
+  }
+
+  .feature_icon {
+    @apply inline-block text-5xl mx-auto text-green-700;
+  }
+
+  .feature_title {
+    @apply text-lg font-bold my-1 text-black uppercase;
+  }
+
+  .feature_desc {
+    @apply text-gray-500 text-sm font-medium capitalize w-9/12 my-1 mx-auto;
+  }
+
+  .sale_badge {
+    @apply text-white bg-yellow-500 capitalize text-2xl py-3 px-4 border rounded-br-3xl absolute top-0 z-40 left-0;
+  }
+
+  .section_title_tag {
+    @apply text-4xl text-black font-bold space-x-1 capitalize;
+  }
+  .active_link {
+    @apply text-yellow-500;
+  }
+}
+
+/* tailwind utilities are here */
+@layer utilities {
+  .container_wrapper {
+    width: 84.5%;
+    margin: auto;
+    height: auto;
+  }
+
+  .topbar_wrapper {
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 13.2% auto 18.2%;
+  }
+
+  .social_icon_area {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .language_currency_area {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+  }
+
+  .header_navigation {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+  }
+
+  .cart_badge {
+    position: absolute;
+    bottom: 25px;
+    right: -10px;
+    background: black;
+    border-radius: 100px;
+    color: #facc15;
+    font-weight: 700;
+    font-size: 17px;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+  }
+
+  .sub_banners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner {
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .single_banner1 {
+    background-image: linear-gradient(#07fff40f, #07fff40f),
+      url(/../../images/sub_banners/fruits_banner.jpg);
+    width: 48%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+  }
+
+  .single_banner2 {
+    background-image: linear-gradient(#07fff40f, #07fff40f),
+      url(/../../images/sub_banners/veg_banner.jpg);
+    width: 48%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer_banner1 {
+    background-image: linear-gradient(#07ff1a20, #07ff1a20),
+      url(/../../images/footer_banners/breakfast.jpg);
+    width: 100%;
+    height: 200px;
+    padding: 8% 5%;
+  }
+
+  .footer_banner2 {
+    background-image: linear-gradient(#07ff1a20, #07ff1a20),
+      url(/../../images/footer_banners/fresh_fruits.jpg);
+    width: 100%;
+    height: 200px;
+    padding: 8% 5%;
+    background-position: left;
+  }
+
+  .footer_banner3 {
+    background-image: linear-gradient(#00ffff5c, #00ffff5c),
+      url(/../../images/footer_banners/rice.avif);
+    width: 100%;
+    height: 435px;
+    padding: 8% 5%;
+    background-position: right;
+  }
+
+  .sale_banner_wrapper {
+    background-image: url(/../../images/sale_banner/sale_banner.jpg);
+    width: 100%;
+    height: 435px;
+    padding: 8% 5%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner_content {
+    padding: 0 10%;
+  }
+}
+
+/* tailwind variants are here */
+@variants hover {
+}
+
+/* tailwind responsive css here  */
+@responsive {
+}
+
+@media screen(sm) {
+}
+
+/* tailwind functions are here */

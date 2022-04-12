@@ -1,0 +1,26 @@
+[
+  {
+    "uid": 12332,
+    "product_title": "european lemon zest - 1kg",
+    "product_thumbnail": "https://i.ibb.co/mC44Tdj/sale1.png",
+    "regular_price": 78.0,
+    "sale_price": 69.0,
+    "rest_time": 123843743499
+  },
+  {
+    "uid": 12432,
+    "product_title": "german chillies loacal - 1kg",
+    "product_thumbnail": "https://i.ibb.co/4p8fVZM/sale3.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75,
+    "rest_time": 123344743499
+  },
+  {
+    "uid": 123432,
+    "product_title": "apple gourd - 1kg",
+    "product_thumbnail": "https://i.ibb.co/gDJdN9h/sale2.png",
+    "regular_price": 90.0,
+    "sale_price": 88.75,
+    "rest_time": 123344743499
+  }
+]
