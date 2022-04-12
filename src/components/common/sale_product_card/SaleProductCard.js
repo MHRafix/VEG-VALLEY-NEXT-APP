@@ -23,7 +23,7 @@ const SaleProductCard = ({ product_data }) => {
             height={200}
           />
         </div>
-        <div className="count_down_timer my-3">
+        <div className="count_down_timer mb-3">
           <CountDownTimer countdownTimestampMs={rest_time} />
         </div>
         <div className="product_details text-center">
