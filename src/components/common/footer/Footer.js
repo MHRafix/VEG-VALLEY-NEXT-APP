@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
           <div
             className="footer_bottom_area mt-20 py-5 flex justify-between items-center"
-            style={{ borderTop: "1px solid #e5e7ev" }}
+            style={{ borderTop: "1px solid #e7d5d5" }}
           >
             <div className="copy-right_text">
               <h2 className="font-medium text-lg spacing-x-1">
