@@ -96,6 +96,42 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <div className="footer_bottom_area mt-20 py-3 flex justify-between items-center border border-t-3">
+            <div className="copy-right_text">
+              <h2 className="font-medium text-lg spacing-x-1">
+                Copyright ©2022 vegvalley. All Rights Reserved.
+              </h2>
+            </div>
+            <div className="brnads_area flex justify-between">
+              <div className="brand_icon mx-2">
+                <img
+                  className="brand_image"
+                  width="80"
+                  height="60"
+                  src="https://i.ibb.co/bghzVQN/download.png"
+                  alt="brnad_icon"
+                />
+              </div>
+              <div className="brand_icon mx-2">
+                <img
+                  className="brand_image"
+                  width="80"
+                  height="60"
+                  src="https://i.ibb.co/GtxRfYc/discover.jpg"
+                  alt="brnad_icon"
+                />
+              </div>
+              <div className="brand_icon mx-2">
+                <img
+                  className="brand_image"
+                  width="80"
+                  height="60"
+                  src="https://i.ibb.co/6P6Rwv6/visapng.png"
+                  alt="brnad_icon"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
