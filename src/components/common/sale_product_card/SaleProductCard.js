@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import CountDownTimer from "../../home/home_sale_products/CountDownTimer";
 
 const SaleProductCard = ({ product_data }) => {
   const {
@@ -22,16 +23,18 @@ const SaleProductCard = ({ product_data }) => {
             height={200}
           />
         </div>
-        <div className="count_down_timer"></div>
+        <div className="count_down_timer my-3">
+          <CountDownTimer countdownTimestampMs={rest_time} />
+        </div>
         <div className="product_details text-center">
-          <h1 className="text-xl text-green-900 spacing-x-1 capitalize font-semibold">
+          <h1 className="text-xl text-green-900 spacing-x-1 capitalize font-bold my-2">
             {product_title}
           </h1>
-          <span className="line-through text-sm font-medium text-gray-500 mx-2">
-            $ {regular_price}
+          <span className="line-through text-lg font-medium text-gray-500 mx-2">
+            ${regular_price}
           </span>
-          <span className="text-sm font-semibold text-yellow-600">
-            $ {sale_price}
+          <span className="text-lg font-semibold text-yellow-600">
+            ${sale_price}
           </span>
         </div>
       </div>

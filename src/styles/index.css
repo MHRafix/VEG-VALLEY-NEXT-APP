@@ -84,6 +84,14 @@
   .active_link {
     @apply text-yellow-500;
   }
+
+  .rest_times {
+    @apply font-semibold text-3xl text-green-700 mb-2;
+  }
+
+  .rest_times_name {
+    @apply uppercase text-sm font-semibold text-green-700;
+  }
 }
 
 /* tailwind utilities are here */
@@ -199,6 +207,25 @@
 
   .banner_content {
     padding: 0 10%;
+  }
+
+  .rest_time_wrapper {
+    background: #f3e0e0a6;
+    padding: 12px 15px;
+    text-align: center;
+  }
+
+  .rest_time_wrapper {
+    display: grid;
+    grid-template-columns: 22% 3% 22% 3% 22% 3% 22%;
+  }
+
+  .timer_devider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #eab308;
   }
 }
 
