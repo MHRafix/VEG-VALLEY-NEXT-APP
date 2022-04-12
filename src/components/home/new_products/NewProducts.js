@@ -6,7 +6,7 @@ import NewProductCard from "./NewProductCard";
 const NewProducts = () => {
   return (
     <>
-      <div className="my-10">
+      <div className="my-20">
         <div className="flex justify-between items-center">
           <div className="section_title_tag">new products</div>
           <div>
