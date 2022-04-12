@@ -96,7 +96,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="footer_bottom_area mt-20 py-3 flex justify-between items-center border-t-3">
+          <div
+            className="footer_bottom_area mt-20 py-3 flex justify-between items-center"
+            style={{ borderTop: "1px solid gray" }}
+          >
             <div className="copy-right_text">
               <h2 className="font-medium text-lg spacing-x-1">
                 Copyright ©2022 vegvalley. All Rights Reserved.
