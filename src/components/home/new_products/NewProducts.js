@@ -1,6 +1,6 @@
 import React from "react";
 import { toogle_products_menus } from "../../common/navigation_data/navigation_menu";
-import NavBars from "../../common/nav_bars/NavBars";
+import NewProductsNavbar from "../../common/nav_bars/NewProductsNavbar";
 import NewProductsData from "../../fake_data/new_products_data.json";
 import NewProductCard from "./NewProductCard";
 const NewProducts = () => {
@@ -11,7 +11,7 @@ const NewProducts = () => {
           <div className="section_title_tag">new products</div>
           <div>
             {toogle_products_menus.map((menu) => (
-              <NavBars key={menu.uid} menu={menu} />
+              <NewProductsNavbar key={menu.uid} menu={menu} />
             ))}
           </div>
         </div>
