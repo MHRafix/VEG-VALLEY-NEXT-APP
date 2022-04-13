@@ -234,6 +234,35 @@
     font-size: 30px;
     color: #eab308;
   }
+
+  .slider_wrapper_main {
+    display: flex;
+  }
+
+  .categories_wrapper_active {
+    width: 25%;
+    height: 80vh;
+    background: rgb(229 231 235);
+    transition: width 2s;
+  }
+
+  .categories_wrapper_deactive {
+    width: 0%;
+    transition: width 2s;
+    background: rgb(229 231 235);
+  }
+
+  .slider_wrapper_normal {
+    width: 74%;
+    margin-left: 1%;
+    transition: width 2s;
+  }
+
+  .slider_wrapper_extend {
+    width: 100%;
+    margin-left: 0%;
+    transition: width 2s;
+  }
 }
 
 /* tailwind variants are here */

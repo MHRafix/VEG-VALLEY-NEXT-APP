@@ -76,28 +76,27 @@ const HomeSlider = () => {
         </div>
 
         {/* categories and slider */}
-        <div
-          style={{
-            margin: "20px 0px 0px 0px",
-            display: "grid",
-            gridTemplateColumns: dropdownActive ? "25% 74%" : "100%",
-            gridGap: dropdownActive ? "1%" : "0%",
-          }}
-        >
-          {dropdownActive && (
-            <div
-              className="categories_wrapper bg-gray-200"
-              style={{ height: "80vh" }}
-            >
-              {all_categories.map((category) => (
-                <CategoryMarkup
-                  key={category.uid}
-                  category={category.category_name}
-                />
-              ))}
-            </div>
-          )}
-          <div className="slider_wrapper">
+        <div className="slider_wrapper_main">
+          <div
+            className={
+              dropdownActive
+                ? "categories_wrapper_active"
+                : "categories_wrapper_deactive"
+            }
+          >
+            {all_categories.map((category) => (
+              <CategoryMarkup
+                key={category.uid}
+                category={category.category_name}
+              />
+            ))}
+          </div>
+
+          <div
+            className={
+              dropdownActive ? "slider_wrapper_normal" : "slider_wrapper_extend"
+            }
+          >
             <SliderBanner />
           </div>
         </div>
