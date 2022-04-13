@@ -102,7 +102,7 @@ const Footer = () => {
             style={{ borderTop: "1px solid #e7d5d5" }}
           >
             <div className="copy-right_text">
-              <h2 className="font-medium text-lg spacing-x-1">
+              <h2 className="font-medium text-lg text-gray-500 spacing-x-1">
                 Copyright ©2022 vegvalley. All Rights Reserved.
               </h2>
             </div>
