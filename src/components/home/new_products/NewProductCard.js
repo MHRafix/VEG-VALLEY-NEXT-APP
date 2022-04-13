@@ -10,7 +10,7 @@ const NewProductCard = ({ product_data }) => {
     rest_time,
   } = product_data;
   return (
-    <div className="bg-gray-50 mb-4 p-2 cursor-pointer hover:shadow-xl">
+    <div className="bg-gray-50 mb-4 p-2 cursor-pointer hover:shadow-xl hover:duration-300">
       <div>
         <img className="mx-auto" src={product_thumbnail} width="65%" />
       </div>

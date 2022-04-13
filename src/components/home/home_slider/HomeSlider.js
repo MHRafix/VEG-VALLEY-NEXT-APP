@@ -85,7 +85,10 @@ const HomeSlider = () => {
           }}
         >
           {dropdownActive && (
-            <div className="categories_wrapper bg-gray-100">
+            <div
+              className="categories_wrapper bg-gray-200"
+              style={{ height: "80vh" }}
+            >
               {all_categories.map((category) => (
                 <CategoryMarkup
                   key={category.uid}

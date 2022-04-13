@@ -109,11 +109,11 @@ const Footer = () => {
             <div className="brnads_area flex justify-between">
               <div className="brand_icon mx-2">
                 <img
-                  className="brand_image"
-                  width="80"
-                  height="60"
                   src="https://i.ibb.co/bghzVQN/download.png"
                   alt="brnad_icon"
+                  className="brand_image"
+                  height="60"
+                  width="80"
                 />
               </div>
               <div className="brand_icon mx-2">

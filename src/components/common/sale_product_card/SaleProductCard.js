@@ -13,7 +13,7 @@ const SaleProductCard = ({ product_data }) => {
   } = product_data;
   return (
     <Link href={`/products/single_products/${uid}`}>
-      <div className="my-3 py-3 cursor-pointer hover:shadow-xl">
+      <div className="my-3 py-3 cursor-pointer hover:shadow-xl hover:duration-300">
         <div className="relative bg-gray-50">
           {rest_time && <span className="sale_badge">sale!</span>}
           <img
