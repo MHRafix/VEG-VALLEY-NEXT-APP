@@ -35,7 +35,6 @@ export const all_categories = [
   { uid: 52132, category_name: "fresh fruits" },
   { uid: 22132, category_name: "daily needs" },
   { uid: 32132, category_name: "milky products" },
-  { uid: 42131, category_name: "uncategorize" },
   { uid: 42130, category_name: "more category" },
 ];
 
