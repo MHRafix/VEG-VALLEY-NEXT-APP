@@ -14,8 +14,8 @@ export const SliderBanner = () => {
         style={{
           ...style,
           background: "#eab308",
-          position: "relative",
-          left: "95%",
+          position: "absolute",
+          right: "1%",
           bottom: "41vh",
           padding: "20px",
           borderRadius: "100px",

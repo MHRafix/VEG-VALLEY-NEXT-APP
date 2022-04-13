@@ -76,7 +76,7 @@ const HomeSlider = () => {
         </div>
 
         {/* categories and slider */}
-        <div className="slider_wrapper_main">
+        <div className="slider_wrapper_main mt-3">
           <div
             className={
               dropdownActive
