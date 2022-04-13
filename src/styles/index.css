@@ -244,14 +244,14 @@
     overflow: hidden;
     height: 80vh;
     background: rgb(229 231 235);
-    transition: width 1s;
+    transition: width 1s, height 1s;
   }
 
   .categories_wrapper_deactive {
     overflow: hidden;
     width: 0%;
     height: 0vh;
-    transition: width 1s;
+    transition: width 1s, height 1s;
     background: rgb(229 231 235);
   }
 
