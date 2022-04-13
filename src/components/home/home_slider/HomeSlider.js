@@ -3,6 +3,11 @@ import { AiOutlineBars } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
+import {
+  all_categories,
+  CategoryMarkup,
+} from "../../common/navigation_data/navigation_menu";
+import { SliderBanner } from "./Slider/Slider";
 
 const HomeSlider = () => {
   const [dropdownActive, setDropdownActive] = useState(true);
@@ -71,9 +76,27 @@ const HomeSlider = () => {
         </div>
 
         {/* categories and slider */}
-        <div className="flex justify-center items-center">
-          <div className="categories_wrapper">sidebar here !</div>
-          <div className="slider_wrapper">Banner Slider Here...!</div>
+        <div
+          style={{
+            margin: "20px 0px 0px 0px",
+            display: "grid",
+            gridTemplateColumns: dropdownActive ? "25% 74%" : "100%",
+            gridGap: dropdownActive ? "1%" : "0%",
+          }}
+        >
+          {dropdownActive && (
+            <div className="categories_wrapper bg-gray-100">
+              {all_categories.map((category) => (
+                <CategoryMarkup
+                  key={category.uid}
+                  category={category.category_name}
+                />
+              ))}
+            </div>
+          )}
+          <div className="slider_wrapper">
+            <SliderBanner />
+          </div>
         </div>
       </div>
     </>

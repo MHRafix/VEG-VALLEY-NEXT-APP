@@ -1,0 +1,23 @@
+[
+  {
+    "uid": 1,
+    "slider_tagline": "100% organic",
+    "slider_title": "vegetbales",
+    "slider_description": "Fresh vegetables natural farm products",
+    "slider_background": "https://i.ibb.co/SxKHr2R/slider1.jpg"
+  },
+  {
+    "uid": 2,
+    "slider_tagline": "100% organic",
+    "slider_title": "fresh fruits",
+    "slider_description": "Fresh, green, and natural fruits",
+    "slider_background": "https://i.ibb.co/GCGKSnq/slider2.jpg"
+  },
+  {
+    "uid": 3,
+    "slider_tagline": "100% pure",
+    "slider_title": "goat meat",
+    "slider_description": "Healthy meat of goat and fresh",
+    "slider_background": "https://i.ibb.co/X4nwK2F/slider3.jpg"
+  }
+]
