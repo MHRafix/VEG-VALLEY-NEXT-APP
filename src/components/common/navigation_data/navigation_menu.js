@@ -55,7 +55,7 @@ export const social_menus = [
  */
 export const CategoryMarkup = ({ category }) => {
   return (
-    <div className="category_wrapper flex items-center justify-between text-lg text-gray-500 p-2 my-2 font-medium space-x-1 capitalize hover:bg-gray-300 hover:text-black hover:duration-500 cursor-pointer">
+    <div className="category_wrapper flex items-center justify-between text-lg text-gray-500 py-2 px-4 my-2 font-medium space-x-1 capitalize hover:bg-gray-300 hover:text-black hover:duration-500 cursor-pointer">
       {category} <RiArrowRightSLine />
     </div>
   );
