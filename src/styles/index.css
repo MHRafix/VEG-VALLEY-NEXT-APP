@@ -243,7 +243,7 @@
     width: 25%;
     overflow: hidden;
     height: 80vh;
-    background: rgb(229 231 235);
+    background: #f9fafb;
     transition: width 1s, height 1s;
   }
 
@@ -252,7 +252,7 @@
     width: 0%;
     height: 0vh;
     transition: width 1s, height 1s;
-    background: rgb(229 231 235);
+    background: #f9fafb;
   }
 
   .slider_wrapper_normal {
