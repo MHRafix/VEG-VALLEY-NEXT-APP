@@ -7,7 +7,16 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        button: {
+          btnPrimary: "#eab308",
+        },
+        textColor: {
+          textGray: "#4b5563",
+        },
+      },
+    },
   },
   variants: {
     extend: {},

@@ -9,27 +9,27 @@
 /* tailwind components are here  */
 @layer components {
   .social_icon_wrapper {
-    @apply text-lg text-gray-600 mr-3 cursor-pointer hover:text-yellow-500 hover:duration-300;
+    @apply text-lg text-textColor-textGray mr-3 cursor-pointer hover:text-button-btnPrimary hover:duration-300;
   }
 
   .lang_crrency_wrapper {
-    @apply text-center text-gray-600 font-medium text-sm;
+    @apply text-center text-textColor-textGray font-medium text-sm;
   }
 
   .select_input {
-    @apply outline-none p-1 text-gray-600;
+    @apply outline-none w-full text-textColor-textGray;
   }
 
   .sorting_input {
-    @apply outline-none bg-gray-50 p-4 text-xl text-gray-500;
+    @apply outline-none bg-gray-50 p-3 text-xl text-textColor-textGray;
   }
 
   .navigation_link {
-    @apply text-gray-500 text-lg space-x-1 font-medium capitalize mx-2;
+    @apply text-textColor-textGray text-lg space-x-1 font-medium capitalize mx-2;
   }
 
   .navigation_link2 {
-    @apply text-lg text-gray-700 space-x-1 font-medium uppercase my-2;
+    @apply text-sm text-textColor-textGray space-x-1 font-medium uppercase my-2;
   }
 
   .btn {
@@ -37,15 +37,15 @@
   }
 
   .btn_login {
-    @apply w-20 h-10 text-yellow-500 bg-transparent hover:bg-yellow-500 hover:text-white hover:duration-300;
+    @apply w-20 h-10 text-button-btnPrimary bg-transparent hover:bg-button-btnPrimary hover:text-white hover:duration-300;
   }
 
   .btn_signup {
-    @apply w-20 h-10 text-white bg-yellow-500 mx-2 text-center;
+    @apply w-20 h-10 text-white bg-button-btnPrimary mx-2 text-center;
   }
 
   .btn2 {
-    @apply text-lg text-white bg-yellow-500 text-center rounded-sm font-semibold;
+    @apply text-lg text-white bg-button-btnPrimary text-center rounded-sm font-semibold;
   }
   .btn_cart {
     @apply p-2.5;
@@ -60,10 +60,10 @@
   }
 
   .btn_shop_now {
-    @apply py-3 text-lg px-4 flex justify-between items-center text-yellow-500 bg-transparent hover:bg-yellow-500 hover:text-white hover:duration-300;
+    @apply py-3 text-lg px-4 flex justify-between items-center text-button-btnPrimary bg-transparent hover:bg-button-btnPrimary hover:text-white hover:duration-300;
   }
   .features_card {
-    @apply text-center px-2 py-5 bg-gray-50 shadow-lg;
+    @apply text-center px-2 py-5 bg-gray-50 shadow-md;
   }
 
   .feature_icon {
@@ -75,18 +75,18 @@
   }
 
   .feature_desc {
-    @apply text-gray-500 text-sm font-medium capitalize w-9/12 my-1 mx-auto;
+    @apply text-textColor-textGray text-sm font-medium capitalize w-9/12 my-1 mx-auto;
   }
 
   .sale_badge {
-    @apply text-white bg-yellow-500 capitalize text-2xl py-3 px-4 border rounded-br-3xl absolute top-0 z-40 left-0;
+    @apply text-white bg-button-btnPrimary capitalize text-2xl py-3 px-4 border rounded-br-3xl absolute top-0 z-40 left-0;
   }
 
   .section_title_tag {
     @apply text-4xl text-black font-bold space-x-1 capitalize;
   }
   .active_link {
-    @apply text-yellow-500;
+    @apply text-button-btnPrimary;
   }
 
   .rest_times {
@@ -126,6 +126,14 @@
   .header_navigation {
     display: grid;
     grid-template-columns: 25% 50% 25%;
+  }
+
+  .slider_header_navigation {
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
   }
 
   .cart_badge {

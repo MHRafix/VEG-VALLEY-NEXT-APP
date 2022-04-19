@@ -10,18 +10,18 @@ const NewProductCard = ({ product_data }) => {
     rest_time,
   } = product_data;
   return (
-    <div className="bg-gray-50 mb-4 p-2 cursor-pointer hover:shadow-xl hover:duration-300">
+    <div className="bg-gray-50 mb-4 p-3 cursor-pointer hover:shadow-xl hover:duration-300">
       <div>
-        <img className="mx-auto" src={product_thumbnail} width="65%" />
+        <img className="mx-auto" src={product_thumbnail} width="50%" />
       </div>
-      <div className="text-center">
+      <div className="text-center mt-2">
         <h1 className="text-xl text-green-900 spacing-x-1 capitalize font-semibold">
           {product_title}
         </h1>
-        <span className="line-through text-sm font-medium text-gray-500 mx-2">
+        <span className="line-through text-sm font-medium text-textColor-textGray mx-2">
           $ {regular_price}
         </span>
-        <span className="text-sm font-semibold text-yellow-600">
+        <span className="text-sm font-semibold text-button-btnPrimary">
           $ {sale_price}
         </span>
       </div>

@@ -17,9 +17,9 @@ const Footer = () => {
           <div className="footer_wrapper grid grid-rows-1 grid-cols-4">
             <div className="footer_block">
               <div className="block_header py-9">
-                <h1 className="font-bold text-4xl capitalize">
+                <h1 className="font-bold text-2xl capitalize">
                   <span className="text-green-900">veg</span>
-                  <span className="text-yellow-500">valley</span>
+                  <span className="text-button-btnPrimary">valley</span>
                 </h1>
               </div>
               <div className="block_content">
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="footer_block">
               <div className="block_header py-9">
-                <h1 className="section_title_tag text-3xl">categories</h1>
+                <h1 className="section_title_tag text-2xl">categories</h1>
               </div>
               <div className="block_content">
                 <div className="grid">
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
             <div className="footer_block">
               <div className="block_header py-9">
-                <h1 className="section_title_tag text-3xl">usefull linkes</h1>
+                <h1 className="section_title_tag text-2xl">usefull linkes</h1>
               </div>
               <div className="block_content">
                 <div className="grid">
@@ -59,37 +59,37 @@ const Footer = () => {
             </div>
             <div className="footer_block">
               <div className="block_header py-9 mb-2">
-                <h1 className="section_title_tag text-3xl">stay conected</h1>
+                <h1 className="section_title_tag text-2xl">stay connected</h1>
               </div>
               <div className="block_content">
                 <div className="flex justify-center items-center mb-5">
                   <input
-                    className="w-10/12 bg-gray-50 py-3 rounded-tl-md rounded-bl-md text-xl px-2 ml-2 outline-none"
+                    className="w-10/12 bg-gray-50 py-2 rounded-tl-md rounded-bl-md text-sm px-2 outline-none"
                     type="text"
                     name="text"
                     placeholder="Email address"
                   />
-                  <button className="btn2 btn_search py-3 px-3 -ml-1 rounded-md text-3xl">
+                  <button className="btn2 btn_search py-1 px-1 -ml-1 rounded-md text-3xl">
                     <MdOutlineKeyboardArrowRight />
                   </button>
                 </div>
 
                 <div className="flex justify-left items-center">
-                  <div className="text-yellow-400 text-3xl my-2 mx-1">
+                  <div className="text-button-btnPrimary text-xl m-1">
                     <CgPhone />
                   </div>
                   <div>
-                    <p className="text-black text-xl font-medium">
+                    <p className="text-textColor-textGray text-sm font-medium">
                       (088) 1611859565
                     </p>
                   </div>
                 </div>
-                <div className="flex justify-left items-center my-2">
-                  <div className="text-yellow-400 text-3xl mx-1">
+                <div className="flex justify-left items-center">
+                  <div className="text-button-btnPrimary text-xl m-1">
                     <IoIosMail />
                   </div>
                   <div>
-                    <p className="text-black text-xl font-medium">
+                    <p className="text-textColor-textGray text-sm font-medium">
                       Support@vegvalley.com
                     </p>
                   </div>
@@ -102,7 +102,7 @@ const Footer = () => {
             style={{ borderTop: "1px solid #e7d5d5" }}
           >
             <div className="copy-right_text">
-              <h2 className="font-medium text-lg text-gray-500 spacing-x-1">
+              <h2 className="font-medium text-sm text-gray-500 spacing-x-1">
                 Copyright ©2022 vegvalley. All Rights Reserved.
               </h2>
             </div>

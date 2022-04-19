@@ -16,16 +16,18 @@ const HomeSlider = () => {
     <>
       <div className="home_slider_area my-10">
         {/* filtering bar here */}
-        <div className="header_navigation">
+        <nav className="slider_header_navigation">
           <div
-            className="flex items-center bg-yellow-500 text-white px-4 cursor-pointer"
+            style={{ width: "25%" }}
+            className="flex items-center justify-between bg-button-btnPrimary text-white py-4 px-3 cursor-pointer"
             onClick={() => {
               if (dropdownActive) setDropdownActive(false);
               else setDropdownActive(true);
             }}
           >
-            <div className="flex justify-between items-center text-xl mr-20 font-medium">
-              <AiOutlineBars /> <span className="ml-2">All Categories</span>
+            <div className="flex justify-between items-center text-xl font-medium">
+              <AiOutlineBars />
+              <span className="ml-2 text-lg">All Categories</span>
             </div>
             {dropdownActive ? (
               <div>
@@ -39,9 +41,13 @@ const HomeSlider = () => {
           </div>
           <div
             className="mx-3"
-            style={{ display: "grid", gridTemplateColumns: "15% 71% 14%" }}
+            style={{
+              width: "50%",
+              display: "grid",
+              gridTemplateColumns: "15% 71% 14%",
+            }}
           >
-            <div className="sorting_menu">
+            <div className="sorting_menu ml-1">
               <select className="sorting_input">
                 <option value="all">All</option>
                 <option value="10">10</option>
@@ -50,30 +56,33 @@ const HomeSlider = () => {
             </div>
             <div>
               <input
-                className="w-full p-4 text-2xl ml-1 outline-none"
+                className="w-full p-3 text-2xl ml-1 outline-none bg-gray-50"
                 type="search"
                 name="search"
                 placeholder="Search product..."
               />
             </div>
             <div>
-              <button className="btn2 btn_search py-4 px-7 text-3xl">
+              <button className="bg-button-btnPrimary py-4 px-5 text-2xl">
                 <FiSearch />
               </button>
             </div>
           </div>
-          <div className="flex justify-end items-center">
-            <div className="text-yellow-500 text-6xl mx-1">
+          <div
+            style={{ width: "25%" }}
+            className="flex justify-end items-center"
+          >
+            <div className="text-button-btnPrimary text-5xl mx-1">
               <MdOutlinePhoneInTalk />
             </div>
             <div>
               <p className="text-black text-xl font-medium">(088) 1611859565</p>
-              <p className="text-gray-500 text-lg font-medium">
+              <p className="text-textColor-textGray text-md font-medium">
                 Customer Support
               </p>
             </div>
           </div>
-        </div>
+        </nav>
 
         {/* categories and slider */}
         <div className="slider_wrapper_main mt-3">

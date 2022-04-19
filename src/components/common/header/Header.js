@@ -11,10 +11,10 @@ const Header = () => {
           <div>
             <h1 className="font-bold text-4xl capitalize">
               <span className="text-green-900">veg</span>
-              <span className="text-yellow-500">valley</span>
+              <span className="text-button-btnPrimary">valley</span>
             </h1>
           </div>
-          <div className="flex justify-start items-center ml-1">
+          <div className="flex justify-start items-center">
             {header_menus.map((menu) => (
               <NavBars key={menu.uid} menu={menu} />
             ))}
