@@ -127,6 +127,14 @@
     sm:grid-cols-2;
   }
 
+  .footer_banner_section {
+    @apply grid grid-rows-1 tv:grid-cols-3 pc:grid-cols-3 laptop:grid-cols-3 tab:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 xs:grid-cols-1  text-center gap-x-4 my-10;
+  }
+
+  .footer_wrapper {
+    @apply grid grid-rows-1 tv:grid-cols-4 pc:grid-cols-4 laptop:grid-cols-2 tab:grid-cols-2 md:grid-cols-1;
+  }
+
   .section_title_tag {
     @apply text-4xl text-black font-bold space-x-1 capitalize;
   }

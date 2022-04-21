@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       <div className="footer_area mt-20">
         <div className="container_wrapper">
-          <div className="footer_wrapper grid grid-rows-1 grid-cols-4">
+          <div className="footer_wrapper">
             <div className="footer_block">
               <div className="block_header py-9">
                 <h1 className="font-bold text-2xl capitalize">
@@ -62,9 +62,9 @@ const Footer = () => {
                 <h1 className="section_title_tag text-2xl">stay connected</h1>
               </div>
               <div className="block_content">
-                <div className="flex justify-center items-center mb-5">
+                <div className="flex justify-left items-center mb-5">
                   <input
-                    className="w-10/12 bg-gray-50 py-2 rounded-tl-md rounded-bl-md text-sm px-2 outline-none"
+                    className="tv:w-10/12 pc:w-10/12 laptop:w-10/12 tab:w-10/12 md:w-1/3 sm:w-2/4 xs:w-full xxs:w-full bg-gray-50 py-2 rounded-tl-md rounded-bl-md text-sm px-2 outline-none"
                     type="text"
                     name="text"
                     placeholder="Email address"

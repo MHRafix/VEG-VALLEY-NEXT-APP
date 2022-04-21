@@ -3,7 +3,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 const FooterBanner = () => {
   return (
     <>
-      <div className="footer_banner_section grid grid-rows-1 grid-cols-3 text-center gap-x-4 my-10">
+      <div className="footer_banner_section">
         <div className="gird grid-rows-1 grid-cols-1">
           {footerBanner("fresh breakfast", "footer_banner1")}
           {footerBanner("fish and seafood", "footer_banner2")}
@@ -33,7 +33,7 @@ const footerBanner = (banner_title, banner_class) => {
   return (
     <div className={`banner ${banner_class} my-8`}>
       <div className="banner_details">
-        <h1 className="text-4xl text-left capitalize font-bold text-black space-x-1 my-5">
+        <h1 className="text-4xl tab:text-3xl text-left capitalize font-bold text-black space-x-1 my-5">
           {banner_title}
         </h1>
         <button className="btn btn_shop_now">
