@@ -18,7 +18,7 @@ const singleBanner = (banner_title, banner_calss) => {
   return (
     <div className={`banner ${banner_calss}`}>
       <div className="banner_content">
-        <h1 className="text-3xl capitalize text-green-800 my-5 font-bold">
+        <h1 className="md:text-3xl capitalize text-green-800 my-5 font-bold xxs:text-2xl">
           {banner_title}
         </h1>
         <button className="btn btn_shop_now">

@@ -12,7 +12,7 @@ const HomeSaleProducts = () => {
         </p>
       </div>
 
-      <div className="grid gap-x-5 grid-rows-1 grid-cols-3">
+      <div className="sale_products_wrapper">
         {SaleProductsData.map((product) => (
           <SaleProductCard key={product.uid} product_data={product} />
         ))}

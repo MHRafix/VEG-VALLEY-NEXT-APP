@@ -56,14 +56,14 @@ const HomeSlider = () => {
             </div>
             <div>
               <input
-                className="w-full p-3 text-2xl ml-1 outline-none bg-gray-50"
+                className="w-full p-3 text-xl ml-1 outline-none bg-gray-50"
                 type="search"
                 name="search"
                 placeholder="Search product..."
               />
             </div>
             <div>
-              <button className="bg-button-btnPrimary py-4 px-5 text-2xl">
+              <button className="bg-button-btnPrimary py-4 px-5 text-xl">
                 <FiSearch />
               </button>
             </div>

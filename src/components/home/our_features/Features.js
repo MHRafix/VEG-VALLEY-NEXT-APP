@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <>
       <div className="section_wrapper mt-20">
-        <div className="grid gap-x-5 grid-rows-1 grid-cols-4">
+        <div className="grid gap-3 grid-rows-1 pc:grid-cols-4 laptop:grid-cols-3 tab:grid-cols-2 tab:gap-3 md:grid-cols-2 md:gap-y-3 xs:grid-cols-2 xs:gap-3">
           <div className="features_card">
             <div className="feature_icon">
               <AiOutlineCreditCard />

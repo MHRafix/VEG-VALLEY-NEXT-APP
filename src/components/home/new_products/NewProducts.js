@@ -7,7 +7,7 @@ const NewProducts = () => {
   return (
     <>
       <div className="my-20">
-        <div className="flex justify-between items-center">
+        <div className="section_title_and_nav">
           <div className="section_title_tag">new products</div>
           <div>
             {toogle_products_menus.map((menu) => (
@@ -16,7 +16,7 @@ const NewProducts = () => {
           </div>
         </div>
       </div>
-      <div className="new_prodcuts_wrapper gap-x-3 grid grid-rows-1 grid-cols-5">
+      <div className="new_prodcuts_wrapper">
         {NewProductsData.map((product) => (
           <NewProductCard key={product.uid} product_data={product} />
         ))}

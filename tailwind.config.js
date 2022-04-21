@@ -8,6 +8,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xxs: "375px",
+        xs: "425px",
+        sm: "640px",
+        md: "768px",
+        tab: "992px",
+        laptop: "1024px",
+        pc: "1349px",
+        tv: "1500px",
+      },
       colors: {
         button: {
           btnPrimary: "#eab308",
