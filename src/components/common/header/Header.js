@@ -9,12 +9,12 @@ const Header = () => {
       <header className="bg-white mt-7">
         <nav className="header_navigation">
           <div>
-            <h1 className="font-bold text-4xl capitalize">
+            <h1 className="font-bold tv:text-4xl pc:text-4xl laptop:text-4xl tab:text-4xl md:text-3xl sm:text-2xl xs:text-2xl xxs:text-2xl capitalize">
               <span className="text-green-900">veg</span>
               <span className="text-button-btnPrimary">valley</span>
             </h1>
           </div>
-          <div className="flex justify-start items-center">
+          <div className="tv:flex pc:flex laptop:flex tab:flex md:flex justify-start items-center sm:hidden xs:hidden xxs:hidden xxxs:hidden">
             {header_menus.map((menu) => (
               <NavBars key={menu.uid} menu={menu} />
             ))}

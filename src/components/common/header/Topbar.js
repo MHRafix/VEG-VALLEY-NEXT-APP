@@ -20,7 +20,9 @@ export const Topbar = () => {
                 <option value="france">FRANCE</option>
               </select>
             </div>
-            <div className="text-center text-gray-500 ">|</div>
+            <div className="text-center text-gray-500 mr-3 flex items-center justify-center">
+              |
+            </div>
             <div className="lang_crrency_wrapper">
               <select className="select_input">
                 <option value="usd">US DOLLAR</option>

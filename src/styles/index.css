@@ -9,81 +9,191 @@
 /* tailwind components are here  */
 @layer components {
   .container_wrapper {
-    @apply tv:w-10/12 pc:w-10/12 laptop:w-11/12 tab:w-11/12 md:w-11/12 sm:w-full xs:w-full xxs:w-full m-auto h-auto;
+    @apply tv:w-10/12
+    pc:w-10/12
+    laptop:w-11/12
+    tab:w-11/12
+    md:w-11/12
+    sm:w-full
+    sm:px-3
+    xs:w-full
+    xs:px-3
+    xxs:w-full
+    xxs:px-3
+    m-auto
+    h-auto;
+  }
+
+  .topbar_wrapper {
+    @apply flex
+    justify-between
+    items-center
+    py-5;
   }
 
   .social_icon_wrapper {
-    @apply text-lg text-textColor-textGray mr-3 cursor-pointer hover:text-button-btnPrimary hover:duration-300;
+    @apply tv:text-lg
+    pc:text-lg
+    laptop:text-lg
+    tab:text-lg
+    md:text-sm
+    sm:text-sm
+    xs:text-sm
+    xxs:text-sm
+    text-textColor-textGray
+    mr-2 cursor-pointer
+    hover:text-button-btnPrimary
+    hover:duration-300;
   }
 
   .lang_crrency_wrapper {
-    @apply text-center text-textColor-textGray font-medium text-sm;
+    @apply text-center
+    text-textColor-textGray
+    font-medium
+    text-sm
+    relative
+    block
+    overflow-hidden;
   }
 
   .select_input {
-    @apply outline-none w-full text-textColor-textGray;
+    @apply outline-none
+    text-textColor-textGray;
   }
 
   .sorting_input {
-    @apply outline-none bg-gray-50 p-3 text-xl text-textColor-textGray;
+    @apply outline-none
+    bg-gray-50
+    p-3
+    text-xl
+    text-textColor-textGray;
   }
 
   .navigation_link {
-    @apply text-textColor-textGray text-lg space-x-1 font-medium capitalize mx-2;
+    @apply text-textColor-textGray
+    text-lg
+    space-x-1
+    font-medium
+    capitalize
+    mx-2;
   }
 
   .navigation_link2 {
-    @apply text-sm text-textColor-textGray space-x-1 font-medium uppercase my-2;
+    @apply text-sm
+    text-textColor-textGray
+    space-x-1
+    font-medium
+    uppercase
+    my-2;
   }
 
   .btn {
-    @apply rounded-sm text-sm font-semibold;
+    @apply rounded-sm
+    text-sm
+    font-semibold;
   }
 
   .btn_login {
-    @apply w-20 h-10 text-button-btnPrimary bg-transparent hover:bg-button-btnPrimary hover:text-white hover:duration-300;
+    @apply w-20
+    h-10
+    text-button-btnPrimary
+    bg-transparent
+    hover:bg-button-btnPrimary
+    hover:text-white
+    hover:duration-300;
   }
 
   .btn_signup {
-    @apply w-20 h-10 text-white bg-button-btnPrimary mx-2 text-center;
+    @apply w-20
+    h-10
+    text-white
+    bg-button-btnPrimary
+    mx-2
+    text-center;
   }
 
   .btn2 {
-    @apply text-lg text-white bg-button-btnPrimary text-center rounded-sm font-semibold;
+    @apply text-lg
+    text-white
+    bg-button-btnPrimary
+    text-center
+    rounded-sm
+    font-semibold;
   }
   .btn_cart {
     @apply p-2.5;
   }
 
   .btn_search {
-    @apply px-8 py-5;
+    @apply px-8
+    py-5;
   }
 
   .btn_search {
-    @apply px-7 py-3 uppercase;
+    @apply px-7
+    py-3
+    uppercase;
   }
 
   .btn_shop_now {
-    @apply py-3 text-lg px-4 flex justify-between items-center text-button-btnPrimary bg-transparent hover:bg-button-btnPrimary hover:text-white hover:duration-300;
+    @apply py-3
+    text-lg
+    px-4
+    flex
+    justify-between
+    items-center
+    text-button-btnPrimary
+    bg-transparent
+    hover:bg-button-btnPrimary
+    hover:text-white
+    hover:duration-300;
   }
   .features_card {
-    @apply text-center px-2 py-5 bg-gray-50 shadow-md;
+    @apply text-center
+    px-2
+    py-5
+    bg-gray-50
+    shadow-md;
   }
 
   .feature_icon {
-    @apply inline-block text-5xl mx-auto text-green-700;
+    @apply inline-block
+    text-5xl
+    mx-auto
+    text-green-700;
   }
 
   .feature_title {
-    @apply text-lg font-bold my-1 text-black uppercase;
+    @apply text-lg
+    font-bold
+    my-1
+    text-black
+    uppercase;
   }
 
   .feature_desc {
-    @apply text-textColor-textGray text-sm font-medium capitalize w-9/12 my-1 mx-auto;
+    @apply text-textColor-textGray
+    text-sm
+    font-medium
+    capitalize
+    w-9/12
+    my-1
+    mx-auto;
   }
 
   .sale_badge {
-    @apply text-white bg-button-btnPrimary capitalize text-2xl py-3 px-4 border rounded-br-3xl absolute top-0 z-40 left-0;
+    @apply text-white
+    bg-button-btnPrimary
+    capitalize
+    text-2xl
+    py-3
+    px-4
+    border
+    rounded-br-3xl
+    absolute
+    top-0
+    z-40
+    left-0;
   }
 
   .sub_banners {
@@ -153,26 +263,20 @@
 
 /* tailwind utilities are here */
 @layer utilities {
-  .topbar_wrapper {
-    padding: 10px 0px;
-    display: grid;
-    grid-template-columns: 13.2% auto 18.2%;
-  }
-
   .social_icon_area {
     display: flex;
     justify-content: start;
     align-items: center;
   }
 
-  .language_currency_area {
-    display: grid;
-    grid-template-columns: 48% 4% 48%;
-  }
-
   .header_navigation {
     display: grid;
     grid-template-columns: 25% 50% 25%;
+  }
+
+  .language_currency_area {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
   }
 
   .slider_header_navigation {
