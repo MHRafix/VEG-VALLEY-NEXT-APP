@@ -89,31 +89,72 @@
 
   .btn {
     @apply rounded-sm
-    text-sm
-    font-semibold;
+    text-xs
+    md:font-semibold
+    xxxs:font-light;
   }
 
   .btn_login {
-    @apply w-20
-    h-10
-    text-button-btnPrimary
-    bg-transparent
-    hover:bg-button-btnPrimary
-    hover:text-white
+    @apply tv:text-button-btnPrimary
+    pc:text-button-btnPrimary
+    laptop:text-button-btnPrimary
+    tab:text-button-btnPrimary
+    md:text-button-btnPrimary
+    xxxs:text-white
+    tv:w-20
+    pc:w-20
+    laptop:w-20
+    tab:w-20
+    md:w-20
+    sm:w-14
+    xs:w-14
+    xxxs:w-14
+    tv:h-10
+    pc:h-10
+    laptop:h-10
+    tab:h-10
+    md:h-10
+    sm:h-8
+    xs:h-8
+    xxxs:h-8
+    tv:bg-transparent
+    pc:bg-transparent
+    laptop:bg-transparent
+    tab:bg-transparent
+    md:bg-transparent
+    xxxs:bg-button-btnPrimary
+    ml-1
+    md:hover:bg-button-btnPrimary
+    md:hover:text-white
     hover:duration-300;
   }
 
   .btn_signup {
-    @apply w-20
-    h-10
+    @apply tv:w-20
+    pc:w-20
+    laptop:w-20
+    tab:w-20
+    md:w-20
+    sm:w-14
+    xs:w-14
+    xxxs:w-14
+    tv:h-10
+    pc:h-10
+    laptop:h-10
+    tab:h-10
+    md:h-10
+    sm:h-8
+    xs:h-8
+    xxxs:h-8
     text-white
     bg-button-btnPrimary
-    mx-2
+    mx-1
     text-center;
   }
 
   .btn2 {
-    @apply text-lg
+    @apply md:text-lg
+    xxxs:text-sm
     text-white
     bg-button-btnPrimary
     text-center
@@ -121,7 +162,11 @@
     font-semibold;
   }
   .btn_cart {
-    @apply p-2.5;
+    @apply p-2.5 flex justify-center items-center;
+  }
+
+  .btn_menubar {
+    @apply p-2.5 sm:flex xs:flex xxxs:flex justify-center items-center tv:hidden pc:hidden laptop:hidden tab:hidden md:hidden;
   }
 
   .btn_search {
@@ -220,11 +265,9 @@
     @apply tv:flex tv:justify-between tv:items-center
     pc:flex pc:justify-between pc:items-center
     laptop:flex laptop:justify-between laptop:items-center
-    tab:grid tab:gap-5
-    md:grid md:gap-5
-    sm:grid sm:gap-5
-    xs:grid xs:gap-5
-    xxs:grid xxs:gap-5;
+    tab:grid tab:gap-3
+    md:grid md:gap-3
+    xxxs:grid xxxs:gap-3;
   }
 
   .new_prodcuts_wrapper {
@@ -235,6 +278,42 @@
     tab:grid-cols-3
     md:grid-cols-3
     sm:grid-cols-2;
+  }
+
+  .tagline_style {
+    @apply text-button-btnPrimary
+    tv:text-6xl pc:text-6xl
+    laptop:text-6xl tab:text-6xl
+    md:text-5xl xxxs:text-4xl
+    font-bold capitalize;
+  }
+
+  .title_style {
+    @apply text-textColor-textGreen
+    tv:text-6xl pc:text-6xl
+    laptop:text-6xl tab:text-6xl
+    md:text-5xl xxxs:text-4xl
+    font-bold capitalize;
+  }
+
+  .category_toggle_bar {
+    @apply tv:w-1/4 pc:w-1/4 laptop:w-1/4 tab:w-1/4 md:w-1/4 sm:w-2/4 xs:w-2/4 xxxs:w-2/4 flex items-center justify-between bg-button-btnPrimary text-white tv:py-4 pc:py-4 laptop:py-4 tab:py-4 md:py-4 xxxs:py-2 px-3 cursor-pointer;
+  }
+
+  .bar_icon_wrapper {
+    @apply flex justify-between items-center tv:text-xl pc:text-xl laptop:text-xl tab:text-xl md:text-xl xxxs:text-sm font-medium;
+  }
+
+  .toggle_icon {
+    @apply tv:text-xl pc:text-xl laptop:text-xl tab:text-xl md:text-xl xxxs:text-sm;
+  }
+
+  .communication_details {
+    @apply tv:w-1/4 pc:w-1/4 laptop:w-1/4 tab:w-1/4 md:w-1/4 sm:w-2/4 xs:w-2/4 xxxs:w-2/4 flex justify-end items-center;
+  }
+
+  .communication_icon_style {
+    @apply text-button-btnPrimary tv:text-5xl pc:text-5xl laptop:text-5xl tab:text-5xl md:text-5xl xxxs:text-4xl mx-1;
   }
 
   .footer_banner_section {
@@ -295,9 +374,9 @@
     border-radius: 100px;
     color: #facc15;
     font-weight: 700;
-    font-size: 17px;
-    width: 22px;
-    height: 22px;
+    font-size: 15px;
+    width: 18px;
+    height: 18px;
     text-align: center;
     display: flex;
     align-items: center !important;

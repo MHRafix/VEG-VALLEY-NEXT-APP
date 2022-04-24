@@ -25,6 +25,7 @@ module.exports = {
         },
         textColor: {
           textGray: "#4b5563",
+          textGreen: "#14532d",
         },
       },
     },

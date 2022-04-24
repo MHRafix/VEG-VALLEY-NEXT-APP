@@ -1,24 +1,9 @@
 import React from "react";
 
-const tagline_style = {
-  color: "#eab308",
-  fontSize: 60,
-  fontWeight: 700,
-  textTransform: "capitalize",
-};
-
-const title_style = {
-  color: "#14532d",
-  fontSize: 60,
-  fontWeight: 700,
-  textTransform: "capitalize",
-  lineHeight: 1,
-};
-
 const description_style = {
   margin: "7% 0%",
   color: "#444",
-  fontSize: 20,
+  fontSize: 18,
   fontWeight: 500,
 };
 
@@ -47,8 +32,8 @@ export const SliderContent = ({ slider }) => {
       }}
     >
       <div>
-        <h1 style={tagline_style}>{slider_tagline}</h1>
-        <h1 style={title_style}>{slider_title}</h1>
+        <h1 className="tagline_style">{slider_tagline}</h1>
+        <h1 className="title_style">{slider_title}</h1>
         <p style={description_style}>{slider_description}</p>
         <button className="btn2 btn_search">shop now</button>
       </div>

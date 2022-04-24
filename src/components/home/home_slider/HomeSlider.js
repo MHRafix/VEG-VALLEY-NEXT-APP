@@ -18,29 +18,30 @@ const HomeSlider = () => {
         {/* filtering bar here */}
         <nav className="slider_header_navigation">
           <div
-            style={{ width: "25%" }}
-            className="flex items-center justify-between bg-button-btnPrimary text-white py-4 px-3 cursor-pointer"
+            className="category_toggle_bar"
             onClick={() => {
               if (dropdownActive) setDropdownActive(false);
               else setDropdownActive(true);
             }}
           >
-            <div className="flex justify-between items-center text-xl font-medium">
+            <div className="bar_icon_wrapper">
               <AiOutlineBars />
-              <span className="ml-2 text-lg">All Categories</span>
+              <span className="ml-2 tv:text-lg pc:text-lg laptop:text-lg md:text-lg xxxs:text-sm">
+                All Categories
+              </span>
             </div>
             {dropdownActive ? (
-              <div>
+              <div className="toggle_icon">
                 <IoIosArrowDown />
               </div>
             ) : (
-              <div>
+              <div className="toggle_icon">
                 <IoIosArrowUp />
               </div>
             )}
           </div>
           <div
-            className="mx-3"
+            className="mx-3 md:!grid xxxs:!hidden"
             style={{
               width: "50%",
               display: "grid",
@@ -68,16 +69,15 @@ const HomeSlider = () => {
               </button>
             </div>
           </div>
-          <div
-            style={{ width: "25%" }}
-            className="flex justify-end items-center"
-          >
-            <div className="text-button-btnPrimary text-5xl mx-1">
+          <div className="communication_details">
+            <div className="communication_icon_style">
               <MdOutlinePhoneInTalk />
             </div>
             <div>
-              <p className="text-black text-xl font-medium">(088) 1611859565</p>
-              <p className="text-textColor-textGray text-md font-medium">
+              <p className="text-black tv:text-xl pc:text-xl laptop:text-xl tab:text-xl md:text-xl xxxs:text-sm font-medium">
+                (088) 1611859565
+              </p>
+              <p className="text-textColor-textGray tv:text-base pc:text-base laptop:text-base tab:text-base md:text-base xxxs:text-xs font-medium">
                 Customer Support
               </p>
             </div>
