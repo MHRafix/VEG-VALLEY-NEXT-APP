@@ -36,8 +36,8 @@
     pc:text-lg
     laptop:text-lg
     tab:text-lg
-    md:text-sm
-    sm:text-sm
+    md:!text-lg
+    sm:!text-lg
     xs:text-sm
     xxs:text-sm
     text-textColor-textGray
@@ -64,8 +64,8 @@
   .sorting_input {
     @apply outline-none
     bg-gray-50
-    p-3
-    text-xl
+    tab:p-3 xxxs:p-2
+    tab:text-xl xxxs:text-base
     text-textColor-textGray;
   }
 
@@ -90,7 +90,9 @@
   .btn {
     @apply rounded-sm
     text-xs
-    md:font-semibold
+    tv:font-semibold pc:font-semibold
+    laptop:font-semibold tab:font-semibold
+    md:!font-semibold sm:!font-semibold
     xxxs:font-light;
   }
 
@@ -297,19 +299,19 @@
   }
 
   .category_toggle_bar {
-    @apply tv:w-1/4 pc:w-1/4 laptop:w-1/4 tab:w-1/4 md:w-1/4 sm:w-2/4 xs:w-2/4 xxxs:w-2/4 flex items-center justify-between bg-button-btnPrimary text-white tv:py-4 pc:py-4 laptop:py-4 tab:py-4 md:py-4 xxxs:py-2 px-3 cursor-pointer;
+    @apply tv:w-1/4 pc:w-1/4 laptop:w-1/4 tab:w-1/4 md:!w-1/4 sm:!w-1/4 xs:w-2/4 xxxs:w-2/4 flex items-center justify-between bg-button-btnPrimary text-white tv:py-4 pc:py-4 laptop:py-4 tab:py-4 md:py-3 sm:!py-3 xxxs:py-2 px-3 cursor-pointer;
   }
 
   .bar_icon_wrapper {
-    @apply flex justify-between items-center tv:text-xl pc:text-xl laptop:text-xl tab:text-xl md:text-xl xxxs:text-sm font-medium;
+    @apply flex justify-between items-center tv:text-xl pc:text-xl laptop:text-xl tab:text-xl md:text-sm xxxs:text-sm font-medium;
   }
 
   .toggle_icon {
-    @apply tv:text-xl pc:text-xl laptop:text-xl tab:text-xl md:text-xl xxxs:text-sm;
+    @apply tv:text-xl pc:text-xl laptop:text-xl tab:text-xl md:!text-sm xxxs:!text-sm;
   }
 
   .communication_details {
-    @apply tv:w-1/4 pc:w-1/4 laptop:w-1/4 tab:w-1/4 md:w-1/4 sm:w-2/4 xs:w-2/4 xxxs:w-2/4 flex justify-end items-center;
+    @apply tv:w-1/4 pc:w-1/4 laptop:w-1/4 tab:w-1/4 md:!w-1/4 sm:!w-1/4 xs:w-2/4 xxxs:w-2/4 flex justify-end items-center;
   }
 
   .communication_icon_style {
@@ -325,7 +327,7 @@
   }
 
   .section_title_tag {
-    @apply text-4xl text-black font-bold space-x-1 capitalize;
+    @apply sm:text-4xl xxxs:text-3xl text-black font-bold space-x-1 capitalize;
   }
   .active_link {
     @apply text-button-btnPrimary;
@@ -346,11 +348,6 @@
     display: flex;
     justify-content: start;
     align-items: center;
-  }
-
-  .header_navigation {
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
   }
 
   .language_currency_area {

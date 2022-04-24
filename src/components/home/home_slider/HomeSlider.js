@@ -26,7 +26,7 @@ const HomeSlider = () => {
           >
             <div className="bar_icon_wrapper">
               <AiOutlineBars />
-              <span className="ml-2 tv:text-lg pc:text-lg laptop:text-lg md:text-lg xxxs:text-sm">
+              <span className="ml-2 tv:text-lg pc:text-lg laptop:text-lg md:text-sm xxxs:text-sm">
                 All Categories
               </span>
             </div>
@@ -40,31 +40,35 @@ const HomeSlider = () => {
               </div>
             )}
           </div>
-          <div
-            className="mx-3 md:!grid xxxs:!hidden"
-            style={{
-              width: "50%",
-              display: "grid",
-              gridTemplateColumns: "15% 71% 14%",
-            }}
-          >
-            <div className="sorting_menu ml-1">
+          <div className="w-2/4 tv:flex pc:flex laptop:flex tab:flex md:!flex sm:!flex xxxs:hidden mx-3">
+            <div
+              className="sorting_menu ml-1"
+              style={{ width: "15%", display: "flex", alignItems: "center" }}
+            >
               <select className="sorting_input">
                 <option value="all">All</option>
                 <option value="10">10</option>
                 <option value="20">20</option>
               </select>
             </div>
-            <div>
+            <div
+              style={{
+                width: "71%",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
               <input
-                className="w-full p-3 text-xl ml-1 outline-none bg-gray-50"
+                className="w-full tv:py-3 pc:py-3 laptop:py-3 tab:py-3 md:!py-3 sm:!py-2 xxxs:py-2 text-lg ml-2 outline-none bg-gray-50 px-1"
                 type="search"
                 name="search"
                 placeholder="Search product..."
               />
             </div>
-            <div>
-              <button className="bg-button-btnPrimary py-4 px-5 text-xl">
+            <div
+              style={{ width: "14%", display: "flex", alignItems: "center" }}
+            >
+              <button className="bg-button-btnPrimary tv:py-4 pc:py-4 laptop:py-4 tab:py-4 md:!py-3 sm:!py-3 xxxs:py-2 px-5 text-xl">
                 <FiSearch />
               </button>
             </div>

@@ -8,19 +8,19 @@ const Header = () => {
   return (
     <>
       <header className="bg-white mt-7">
-        <nav className="header_navigation md:grid xxxs:flex xxxs:justify-between xxxs:items-center">
-          <div>
-            <h1 className="font-bold tab:text-4xl xxxs:text-xl capitalize">
+        <nav className="flex justify-between items-center">
+          <div className="w-1/4 flex items-center">
+            <h1 className="font-bold tab:text-4xl md:!text-3xl sm:!text-3xl xxxs:text-xl capitalize">
               <span className="text-green-900">veg</span>
               <span className="text-button-btnPrimary">valley</span>
             </h1>
           </div>
-          <div className="tv:flex pc:flex laptop:flex tab:flex md:flex justify-start items-center sm:hidden xs:hidden xxs:hidden xxxs:hidden">
+          <div className="w-2/4 tv:flex pc:flex laptop:flex tab:flex md:!flex sm:!flex xs:hidden xxs:hidden xxxs:hidden justify-start items-center">
             {header_menus.map((menu) => (
               <NavBars key={menu.uid} menu={menu} />
             ))}
           </div>
-          <div className="flex justify-end items-center">
+          <div className="sm:w-1/4 flex justify-end items-center">
             <button
               className="btn2 btn_menubar tv:w-10
                           pc:w-10

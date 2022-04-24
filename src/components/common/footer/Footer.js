@@ -16,14 +16,14 @@ const Footer = () => {
         <div className="container_wrapper">
           <div className="footer_wrapper">
             <div className="footer_block">
-              <div className="block_header py-9">
+              <div className="block_header md:!py-9 xxxs:py-4">
                 <h1 className="font-bold text-2xl capitalize">
                   <span className="text-green-900">veg</span>
                   <span className="text-button-btnPrimary">valley</span>
                 </h1>
               </div>
               <div className="block_content">
-                <p className="text-gray-600 w-3/4 font-medium mb-10">
+                <p className="text-gray-600 w-3/4 font-medium md:!mb-10 xxxs:mb-5">
                   Lorem ipsum, dolor sit amet consectetur
                 </p>
                 <span className="social_icon_area">
@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer_block">
-              <div className="block_header py-9">
+              <div className="block_header md:!py-9 xxxs:py-5">
                 <h1 className="section_title_tag text-2xl">categories</h1>
               </div>
               <div className="block_content">
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer_block">
-              <div className="block_header py-9">
+              <div className="block_header md:!py-9 xxxs:py-5">
                 <h1 className="section_title_tag text-2xl">usefull linkes</h1>
               </div>
               <div className="block_content">
@@ -58,7 +58,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer_block">
-              <div className="block_header py-9 mb-2">
+              <div className="block_header md:!py-9 xxxs:py-5 mb-2">
                 <h1 className="section_title_tag text-2xl">stay connected</h1>
               </div>
               <div className="block_content">
@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
           </div>
           <div
-            className="footer_bottom_area mt-20 py-5 flex justify-between items-center"
+            className="footer_bottom_area md:!mt-20 xxxs:mt-10 py-5 md:!flex md:!justify-between md:!items-center xxxs:grid xxxs:gap-10"
             style={{ borderTop: "1px solid #e7d5d5" }}
           >
             <div className="copy-right_text">

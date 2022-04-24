@@ -7,7 +7,7 @@ const HomeSaleProducts = () => {
     <>
       <div className="section_title mb-10">
         <h1 className="section_title_tag">deals of the week</h1>
-        <p className="text-black-700 my-2 text-xl font-medium space-x-1 ">
+        <p className="text-black-700 my-2 sm:text-xl xxxs:text-medium font-medium space-x-1 ">
           Recently added our store
         </p>
       </div>

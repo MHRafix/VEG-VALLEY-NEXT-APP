@@ -33,7 +33,7 @@ const footerBanner = (banner_title, banner_class) => {
   return (
     <div className={`banner ${banner_class} my-8`}>
       <div className="banner_details">
-        <h1 className="text-4xl tab:text-3xl text-left capitalize font-bold text-black space-x-1 my-5">
+        <h1 className="tab:text-4xl xxxs:text-3xl text-left capitalize font-bold text-black space-x-1 my-5">
           {banner_title}
         </h1>
         <button className="btn btn_shop_now">
