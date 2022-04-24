@@ -10,7 +10,7 @@ import {
 import { SliderBanner } from "./Slider/Slider";
 
 const HomeSlider = () => {
-  const [dropdownActive, setDropdownActive] = useState(true);
+  const [dropdownActive, setDropdownActive] = useState(false);
 
   return (
     <>
